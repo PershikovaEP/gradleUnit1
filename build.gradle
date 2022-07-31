@@ -18,9 +18,16 @@ dependencies {
 //    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 
 //    все вместе
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+//    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+
+//    testng
+    testImplementation 'org.testng:testng:7.1.0'
+    
 }
 
 test {
-    useJUnitPlatform()
+//    useJUnitPlatform()
+
+//    testng
+    useTestNG()
 }
